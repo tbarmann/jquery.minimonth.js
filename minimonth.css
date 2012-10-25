@@ -1,0 +1,44 @@
+
+
+.mini_month_container {
+width:300px;
+}
+
+table.mini_month {
+margin:20px 10px 20px 10px;
+display:inline-table;
+
+}
+
+.mini_month, .mini_month td {
+font-family:arial;
+font-size:9px;
+text-align:center;
+}
+
+
+
+.mini_month .monthName {
+background-image:url('blue-fade.png');
+background-repeat: repeat-x;
+font-weight:bold;
+color:#FFFFFF;
+font-size:11px;
+}
+
+.mini_month td.day  {
+background: #DDDDDD;
+color:#555555;
+}
+
+
+.mini_month td.blank  {
+background: #FFFFFF;
+color:#999999;
+}
+
+.mini_month .dow td {
+font-weight:bold;
+font-size:11px;
+
+}
